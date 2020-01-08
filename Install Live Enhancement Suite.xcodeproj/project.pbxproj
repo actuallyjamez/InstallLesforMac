@@ -3,22 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		510E76A923C23ABF007F0AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E76A823C23ABF007F0AA7 /* AppDelegate.swift */; };
 		510E76AB23C23AC0007F0AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510E76AA23C23AC0007F0AA7 /* Assets.xcassets */; };
 		510E76AE23C23AC0007F0AA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510E76AC23C23AC0007F0AA7 /* MainMenu.xib */; };
+		510E76B723C24053007F0AA7 /* InstallerControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E76B623C24053007F0AA7 /* InstallerControler.swift */; };
+		510E76BB23C24549007F0AA7 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E76BA23C24549007F0AA7 /* Dialog.swift */; };
+		A12AE0A8F8998FF530335C4A /* Pods_Install_Live_Enhancement_Suite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BEC3686C03A6CDDDB0419 /* Pods_Install_Live_Enhancement_Suite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088BEC3686C03A6CDDDB0419 /* Pods_Install_Live_Enhancement_Suite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Install_Live_Enhancement_Suite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA6111BA117A285D2436A85 /* Pods-Install Live Enhancement Suite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Install Live Enhancement Suite.release.xcconfig"; path = "Target Support Files/Pods-Install Live Enhancement Suite/Pods-Install Live Enhancement Suite.release.xcconfig"; sourceTree = "<group>"; };
 		510E76A523C23ABF007F0AA7 /* Install Live Enhancement Suite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Install Live Enhancement Suite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		510E76A823C23ABF007F0AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		510E76AA23C23AC0007F0AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510E76AD23C23AC0007F0AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		510E76AF23C23AC0007F0AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		510E76B023C23AC0007F0AA7 /* Install_Live_Enhancement_Suite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Install_Live_Enhancement_Suite.entitlements; sourceTree = "<group>"; };
+		510E76B623C24053007F0AA7 /* InstallerControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallerControler.swift; sourceTree = "<group>"; };
+		510E76BA23C24549007F0AA7 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		5198B48D23C2B1AE008F9FEB /* Install_Live_Enhancement_Suite.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Install_Live_Enhancement_Suite.entitlements; sourceTree = "<group>"; };
+		E5863FB347388B31B4261C7C /* Pods-Install Live Enhancement Suite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Install Live Enhancement Suite.debug.xcconfig"; path = "Target Support Files/Pods-Install Live Enhancement Suite/Pods-Install Live Enhancement Suite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12AE0A8F8998FF530335C4A /* Pods_Install_Live_Enhancement_Suite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +46,8 @@
 			children = (
 				510E76A723C23ABF007F0AA7 /* Install Live Enhancement Suite */,
 				510E76A623C23ABF007F0AA7 /* Products */,
+				935739E4CC57A0AA441681F0 /* Pods */,
+				B37DFFB7015B78143A919497 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,13 +62,32 @@
 		510E76A723C23ABF007F0AA7 /* Install Live Enhancement Suite */ = {
 			isa = PBXGroup;
 			children = (
+				5198B48D23C2B1AE008F9FEB /* Install_Live_Enhancement_Suite.entitlements */,
+				510E76BA23C24549007F0AA7 /* Dialog.swift */,
 				510E76A823C23ABF007F0AA7 /* AppDelegate.swift */,
 				510E76AA23C23AC0007F0AA7 /* Assets.xcassets */,
 				510E76AC23C23AC0007F0AA7 /* MainMenu.xib */,
 				510E76AF23C23AC0007F0AA7 /* Info.plist */,
-				510E76B023C23AC0007F0AA7 /* Install_Live_Enhancement_Suite.entitlements */,
+				510E76B623C24053007F0AA7 /* InstallerControler.swift */,
 			);
 			path = "Install Live Enhancement Suite";
+			sourceTree = "<group>";
+		};
+		935739E4CC57A0AA441681F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5863FB347388B31B4261C7C /* Pods-Install Live Enhancement Suite.debug.xcconfig */,
+				1DA6111BA117A285D2436A85 /* Pods-Install Live Enhancement Suite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B37DFFB7015B78143A919497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				088BEC3686C03A6CDDDB0419 /* Pods_Install_Live_Enhancement_Suite.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 510E76B323C23AC0007F0AA7 /* Build configuration list for PBXNativeTarget "Install Live Enhancement Suite" */;
 			buildPhases = (
+				68A84A5853C6C123584F77AA /* [CP] Check Pods Manifest.lock */,
 				510E76A123C23ABF007F0AA7 /* Sources */,
 				510E76A223C23ABF007F0AA7 /* Frameworks */,
 				510E76A323C23ABF007F0AA7 /* Resources */,
+				41BEFC44B0B73FD8B08CF31D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +157,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41BEFC44B0B73FD8B08CF31D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Install Live Enhancement Suite/Pods-Install Live Enhancement Suite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Install Live Enhancement Suite/Pods-Install Live Enhancement Suite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Install Live Enhancement Suite/Pods-Install Live Enhancement Suite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A84A5853C6C123584F77AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Install Live Enhancement Suite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		510E76A123C23ABF007F0AA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510E76BB23C24549007F0AA7 /* Dialog.swift in Sources */,
 				510E76A923C23ABF007F0AA7 /* AppDelegate.swift in Sources */,
+				510E76B723C24053007F0AA7 /* InstallerControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +339,11 @@
 		};
 		510E76B423C23AC0007F0AA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5863FB347388B31B4261C7C /* Pods-Install Live Enhancement Suite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Install Live Enhancement Suite/Install_Live_Enhancement_Suite.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4F3734JVE8;
@@ -283,9 +361,11 @@
 		};
 		510E76B523C23AC0007F0AA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA6111BA117A285D2436A85 /* Pods-Install Live Enhancement Suite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Install Live Enhancement Suite/Install_Live_Enhancement_Suite.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4F3734JVE8;
